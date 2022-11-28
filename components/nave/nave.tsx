@@ -1,9 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import Arrow from '/public/img/arrow-down.svg'
-import User from '/public/img/user.svg'
-import Search from '/public/img/search.svg'
-
+import User from '/public/img/User.svg'
+import Search from '/public/img/Search.svg'
 import Link from 'next/link'
 
 const Nave = () => {

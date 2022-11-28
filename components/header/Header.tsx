@@ -1,5 +1,5 @@
 import React from 'react'
-import Nave from '../nave/Nave'
+import Nave from '../../components/nave/Nave'
 import style from '../../styles/Header.module.css'
 
 
