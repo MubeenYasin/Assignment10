@@ -4,7 +4,7 @@ import Nave from '../nave/Nave'
 const Header = () => {
     return (
         <div className={style.header}>
-            <Nave />
+            {/* <Nave /> */}
         </div>
     )
 }

@@ -10,23 +10,23 @@ const Nave = () => {
     return (
         <div className={style.nave}>
             <nav>
-                <Image src='/img/logo.png' width='78' height='78' alt='logo'></Image>
+                <Link href={'/'}><Image src='/img/logo.png' width='78' height='78' alt='logo'></Image></Link>
 
                 <ul>
                     <li>
-                        <Link href={'/'}>Hypeindestory</Link>
+                        <Link href={'/hypeindestory'}>Hypeindestory</Link>
                         <Link href={'/'}><Arrow className={style.shadow}/></Link>
                     </li>
                     <li>
-                        <Link href={'/'}>Hype Offer</Link>
+                        <Link href={'/offer'}>Hype Offer</Link>
                         <Link href={'/'}><Arrow className={style.shadow}/></Link>
                     </li>
                     <li>
-                        <Link href={'/'}>Shipping</Link>
+                        <Link href={'/shipping'}>Shipping</Link>
                         <Link href={'/'}><Arrow className={style.shadow}/></Link>
                     </li>
                     <li>
-                        <Link href={'/'}>seller request form</Link>
+                        <Link href={'/form'}>seller request form</Link>
                         <Link href={'/'}><Arrow className={style.shadow}/></Link>
                     </li>
                 </ul>
